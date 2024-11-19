@@ -1,0 +1,155 @@
+{
+  "user": [
+    {
+      "id": "admin",
+      "name": "NT Infotech",
+      "password": "Test$1234",
+      "email": "test@gmail.com",
+      "gender": "male",
+      "role": "admin",
+      "isactive": true,
+      "address": {
+        "area": "chennai"
+      }
+    },
+    {
+      "id": "testuser",
+      "name": "Test User",
+      "password": "Test@1234",
+      "email": "test@in.com",
+      "gender": "male",
+      "role": "user",
+      "isactive": true,
+      "address": {
+        "area": "chennai"
+      }
+    },
+    {
+      "id": "Jhon1",
+      "name": "NT Infotech",
+      "password": "Test@1233",
+      "email": "te@in.com",
+      "gender": "male",
+      "role": "tech",
+      "isactive": true,
+      "address": {
+        "area": "chennai"
+      }
+    },
+    {
+      "id": "ntuser",
+      "name": "ramesh",
+      "password": "Test@1234",
+      "email": "te@in.com",
+      "gender": "male",
+      "role": "tech",
+      "isactive": true,
+      "address": {
+        "area": "banglore"
+      }
+    },
+    {
+      "id": "sharath198",
+      "name": "sharath kumar",
+      "password": "Sharath@198",
+      "email": "corporatetrainersharath123@gmail.com",
+      "gender": "male",
+      "role": "user",
+      "isactive": true
+    },
+    {
+      "id": "kumar",
+      "name": "kumar",
+      "password": "Kumar@198",
+      "email": "kumar@gmail.com",
+      "gender": "male",
+      "role": "user",
+      "isactive": true
+    }
+  ],
+  "role": [
+    {
+      "code": "user",
+      "name": "User",
+      "id": "d41c"
+    },
+    {
+      "code": "tech",
+      "name": "Technician",
+      "id": "4205"
+    }
+  ],
+  "menu": [
+    {
+      "code": "user",
+      "name": "User",
+      "id": "e331"
+    },
+    {
+      "code": "customer",
+      "name": "Customer",
+      "id": "8702"
+    }
+  ],
+  "roleaccess": [
+    {
+      "role": "admin",
+      "menu": "user",
+      "haveedit": true,
+      "haveadd": true,
+      "havedelete": true,
+      "id": "b356"
+    },
+    {
+      "role": "admin",
+      "menu": "customer",
+      "haveedit": true,
+      "haveadd": true,
+      "havedelete": true,
+      "id": "6d05"
+    },
+    {
+      "role": "user",
+      "menu": "user",
+      "haveedit": false,
+      "haveadd": false,
+      "havedelete": false,
+      "id": "1495"
+    },
+    {
+      "role": "user",
+      "menu": "customer",
+      "haveedit": true,
+      "haveadd": true,
+      "havedelete": false,
+      "id": "71e4"
+    }
+  ],
+  "customer": [
+    {
+      "id": "1",
+      "name": "rakhesh",
+      "Creditlimit": 1000
+    },
+    {
+      "id": "2",
+      "name": "rahul",
+      "Creditlimit": 1000
+    },
+    {
+      "id": "3",
+      "name": "ramesh",
+      "Creditlimit": 1000
+    },
+    {
+      "id": "4",
+      "name": "rahim",
+      "Creditlimit": 1000
+    },
+    {
+      "id": "5",
+      "name": "robert",
+      "Creditlimit": 1000
+    }
+  ]
+}
